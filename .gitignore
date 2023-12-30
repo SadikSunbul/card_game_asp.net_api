@@ -399,4 +399,4 @@ FodyWeavers.xsd
 
 
 # appsettings klasörünü ignore et
-appsettings/
+appsettings.json
