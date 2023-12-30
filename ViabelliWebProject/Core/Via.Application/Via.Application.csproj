@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.7.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="NuGet.Protocol" Version="6.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Via.Domain\Via.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Cards\_Cards\Comments\Create\" />
+    <Folder Include="Features\Cards\_Cards\Comments\Delete\" />
+    <Folder Include="Features\Cards\_Cards\Comments\Update\" />
+    <Folder Include="Features\Cards\_EquipmentCards\Constants\" />
+    <Folder Include="Features\Cards\_Cards\Constants\" />
+    <Folder Include="Features\Cards\_Cards\Queries\" />
+    <Folder Include="Features\Cards\_Cards\Rules\" />
+    <Folder Include="Features\Cards\_MonetCards\Constants\" />
+    <Folder Include="Features\Cards\_MonsterCards\Constants\" />
+    <Folder Include="Features\Cards\_PotionCards\Constants\" />
+  </ItemGroup>
+
+</Project>
